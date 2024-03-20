@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Mata Kuliah Semester 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/assets/img/mobil.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #ffffff; /* Green */
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #ffffff; /* Green */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        fieldset{
+            width: 80%;
+            margin: auto;
+            margin-top: auto;
+        }
+
+        .blur-background fieldset {
+            border-color: #FF1493; /* Mengubah warna garis fieldset menjadi Deep Pink */
+            box-shadow: 0 2px 5px rgba(255, 105, 180, 0.5); /* Mengubah bayangan fieldset */
+        }
+
+        .blur-background {
+            backdrop-filter: blur(50px);
+            padding: 20px;
+            margin-top: 10%;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0.9; /* Menambahkan opacity */
+        }
+
+        legend {
+            font-size: 1.5rem;
+            color: #0da0e4;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            border-collapse: collapse;
+            background-color: #eeeeee;
+        }
+
+        th, td {
+            padding: 1rem;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3f8a99; 
+            color: white;
+        }
+
+        td:nth-child(2) {
+            font-weight: bold;
+        }
+
+        td:nth-child(4) {
+            text-transform: uppercase;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f0f0f0; /
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="blur-background">
+        <h1>JADWAL KULIAH</h1>
+        <p>Semester 4</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Mata Kuliah</th>
+                    <th>Jam</th>
+                    <th>Tempat</th>
+                    <th>Dosen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Selasa</td>
+                    <td>Data Science</td>
+                    <td>07:00-10:20</td>
+                    <td>Big Data</td>
+                    <td>Bu- Meylany</td>
+                </tr>
+                <tr>
+                    <td>Bahasa Indonesia</td>
+                    <td>10:20-12:00</td>
+                    <td>Online</td>
+                    <td>Bu. Tyas</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Rabu</td>
+                    <td>MPTI</td>
+                    <td>10:20-12:00</td>
+                    <td>Lab. Rekayasa</td>
+                    <td>Pak. Hafid</td>
+                </tr>
+                <tr>
+                    <td>PPKN</td>
+                    <td>13:00-14:00</td>
+                    <td>Offline</td>
+                    <td>Pak. Jhon</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Kamis</td>
+                    <td>Pemprograman Internet</td>
+                    <td>07:00-10:20</td>
+                    <td>Lab. Multimedia</td>
+                    <td>Bu. Setia</td>
+                </tr>
+                <tr>
+                    <td>Teori Bahasa Automata</td>
+                    <td>10:20-12:00</td>
+                    <td>Lab. Rekayasa</td>
+                    <td>Pak. Tri Hastono</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Jum'at</td>
+                    <td>Kecerdasan Buatan</td>
+                    <td>09:00-10:40</td>
+                    <td>IOT</td>
+                    <td>Pak. Oyama</td>
+                </tr>
+                <tr>
+                    <td>Teknik Multimedia</td>
+                    <td>13:00-14:40</td>
+                    <td>Lab. Multimedia</td>
+                    <td>Bu. Puji</td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+</body>
+</html>
